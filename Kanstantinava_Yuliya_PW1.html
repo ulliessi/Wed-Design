@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Practical 1</title>
+    <style>
+       body {
+            background-color: #daecf5;
+            text-align: justify;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #0d5480;
+            color: white;
+            padding: 8px;
+            border-radius: 0 0 10px 10px;
+        }
+
+        .nav {
+            width: 220px;
+            height: 280px;
+            background-color: #ffffff;
+            line-height: 20px;
+            border-radius: 10px;
+            margin: 80px auto 0;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .main {
+            background-color: #daecf5;
+			padding-left: 40px;
+            padding-right: 40px;
+			padding-top: 40px;
+			padding-bottom: 40px;
+			}
+        .content-container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .footer {
+            background-color: #0d5480;
+            color: white;
+            border-radius: 10px 10px 0 0;
+			 padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kanstantinava Yuliya 354</h1>
+        <h2>Web design</h2>
+        <h3>Practical 1 - HTML5</h3>
+    </header>
+    <div class="nav">
+        <nav><b>Navigation</b>
+            <ul>
+                <li>
+                    <p>Answers to questions:</p>
+                    <ul>
+                        <li><a href="#question1">Question a</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#question2">Question b</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#question3">Question c</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#question4">Question d</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#question5">Question e</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#question6">Question f</a></li>
+                    </ul>
+                </li>
+                <li><a href="#feedback">Feedback</a></li>
+                <li><a href="#img">SB.BSU logo</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#audio">Audio</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main">
+        <main>
+		<div class="content-container">
+                    <dl>
+            <dt id="question1"><h4>Question a</h4></dt>
+            <dd>HTML5 became a standard on October 28, 2014. The main reasons for developing this new standard were to make the language better with support for the latest multimedia and to ensure it’s easy to read by people and consistently understood by computers and devices. </dd>
+        </dl>
+		<dl>
+            <dt id="question2"><h4>Question b</h4></dt>
+            <dd>The main difference between W3C HTML5 and WHATWG HTML Living Standard is that the W3C version uses version numbers and is considered a snapshot of the “Living Standard” from WHATWG. The WHATWG version is constantly updated and doesn’t have version numbers.</dd>
+        </dl>
+		<dl>
+            <dt id="question3"><h4>Question c</h4></dt>
+            <dd><p>The minimal code for an HTML page looks like this:</p>
+			<p style="color: grey;"><tt><b>&lt;!DOCTYPE html&gt;</b></tt></p>
+			<p style="color: red;"><tt>&lt;html&gt;</tt></p>
+			<p style="color: red;"><tt>&lt;head&gt;</tt></p>
+			<p style="color: red;"><tt>&lt;title&gt;</tt><span style="color: black;">Title of the document</span><tt>&lt;/title&gt;</tt></p>
+			<p style="color: red;"><tt>&lt;/head&gt;</tt></p>
+			<p style="color: red;"><tt>&lt;body&gt;</tt></p>
+			<p style="color: red;"><tt>&lt;h1&gt;</tt><span style="color: black;">This is a heading</span><tt>&lt;/h1&gt;</tt></p>
+			<p style="color: red;"><tt>&lt;p&gt;</tt><span style="color: black;">This is a paragraph</span><tt>&lt;/p&gt;</tt></p>
+			<p style="color: red;"><tt>&lt;/body&gt;</tt></p>
+			<p style="color: red;"><tt>&lt;/html&gt;</tt></p>
+			</dd>
+        </dl>
+		<dl>
+            <dt id="question4"><h4>Question d</h4></dt>
+            <dd>Semantic HTML describes the content and structure of a document, while presentational HTML is used to determine the look of the document. Presentational markup is considered outdated because it goes against the principle of separation of concerns, according to which HTML should be used for structure, and CSS for presentation.</dd>
+        </dl>
+		<dl>
+            <dt id="question5"><h4>Question e</h4></dt>
+            <dd>You can check browser support for a specific tag or attribute using resources like “Can I use” or JavaScript libraries like Modernizr.</dd>
+        </dl>
+		<dl>
+            <dt id="question6"><h4>Question f</h4></dt>
+            <dd>The audio and video formats officially supported by HTML standard are MP3, WAV, and Ogg for audio, and MP4, WebM, and Ogg for video. If you use another format, it may not be supported by all browsers, which means the audio or video will not play correctly.</dd>
+        </dl>
+		<video width="x" height="x" controls id="video">
+        <source src="x.mp4" type="video/mp4">
+        <source src="x.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
+    <audio controls id="audio">>
+        <source src="x.mp3" type="audio/mpeg">
+        <source src="x.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+</div>
+        </main>
+    </div>
+    <div class="footer">
+        <footer>
+            <img src="https://sb.bsu.by/Content/IB/logo/white-ru.svg" alt="SB.BSU logo" id="img" width="150px">
+            <div>
+                <h4>Feedback</h4>
+                <p id="feedback">The job was quite simple for me, since at school we got basic knowledge about HTML. But despite this, the work was really interesting and I refreshed my knowledge gained at school</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
+
